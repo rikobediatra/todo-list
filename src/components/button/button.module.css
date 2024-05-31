@@ -1,0 +1,17 @@
+.delete {
+    color: rgb(186, 53, 53)
+}
+
+.update {
+    color: var(--primary-color);
+}
+
+.delete:hover {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.update:hover {
+    font-size: 1rem;
+    font-weight: 900;
+}

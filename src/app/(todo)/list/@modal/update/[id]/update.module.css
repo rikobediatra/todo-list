@@ -1,0 +1,52 @@
+.form {
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 1rem;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput > label {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.formInput > input {
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    color: #000;
+}
+
+.formInput > textarea {
+    height: 5rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button > button {
+    width: 14rem;
+    height: 2.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button > button:hover {
+    font-size: 0.75rem;
+    font-weight: 900;
+}

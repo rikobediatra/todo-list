@@ -1,0 +1,27 @@
+.respon {
+  position: fixed;
+  border: 1px solid;
+  top: 2%;
+  right: 2%;
+  background-color: slategrey;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.iconSuccess {
+    color: rgb(87, 237, 87);
+    font-size: x-large;
+}
+
+.iconFailed {
+    color: rgb(237, 87, 87);
+    font-size: x-large;
+}
+
+.respon > p {
+    font-weight: 700;
+}
